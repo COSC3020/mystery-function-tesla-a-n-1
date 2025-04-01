@@ -16,6 +16,7 @@ This mystery function compares every element of the array and gives the largest 
 if(a.length == 1) return a[0] is the base case where if there is only one element, it is by default the largest element
 var foo = mysetry(a.slice(1, a.length)) is where the array is recursively reduced by removing the first element 
 if (foo > a[0]) return foo; compares the first element with the result of the recursive call so if foo is larger than a[0] the function returns foo otherwise it returns a[0]
+Overall, this function returns the largest element of the array.
 
 Sources:
 I looked at https://www.javatpoint.com/array-slicing-in-java as a reminder for what slicing does
